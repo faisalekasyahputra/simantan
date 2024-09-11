@@ -1,0 +1,3 @@
+http://103.97.101.26:888/phpmyadmin_0c0d4f1c02b678b2
+user : simantan
+pass: kadmin-db@simantan

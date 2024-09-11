@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap');
+@import url('https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+body{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+    /* *{
+        border: 1px dashed black;
+    } */
+
+nav{
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+
+background-color: #0091a8;
+
+-webkit-backdrop-filter: blur(8px);
+
+backdrop-filter: blur(8px);
+}
+header {
+  position: fixed;
+  z-index: 9;
+}
+.navbar.nav-first.navbar-expand-lg{
+    display: flex;
+    position:sticky;
+    top: 0;
+
+}
+.nav-second{
+    height: 4vh;
+    background-color: #FFB506;
+}
+
+
+ul.navbar-nav{
+    display: flex;
+    align-items: center;
+}
+a.nav-link{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: rgb(255, 255, 255);
+
+}
+a.nav-link.small{
+    font-weight: normal;
+    font-size: 0.7rem;
+    color: rgb(255, 255, 255);
+
+}
+
+a.nav-link.small.icon{
+    font-weight: normal;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+}
+
+a.nav-link.menu:hover{
+    transition: 300ms ease-in-out;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: rgb(255, 255, 255);
+    background-color: #FFB506;
+}
+
+a.nav-link.active{
+    padding: 5px 0;
+    border: none;
+    font-weight: 500;
+    font-size: 0,8rem;
+    color: rgb(255, 255, 255) !important;
+    background-color: #003366 !important;
+
+}
+
+#hero{
+    padding: 0;
+    background-color: #003366;
+}
+/* Swiper */
+.swiper {
+    width: 100%;
+    height: 100vh;
+  }
+  .swiper2 {
+    width: 100%;
+    height: 100vh;
+  }
+
+  /* .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    Center slide text vertically
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  } */
+  
+
+  .swiper-slide img {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+  }
+   .swiper-slide2 img {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+  }
+
+  .swiper2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .swiper {
+    margin-left: 0;
+    margin-right: 0;
+  }
+/* End-swiper */
+
+footer{
+    background-color: #003366;
+}
+
+/* Slider-card*/
+.slide-container{
+  display: flex;
+  max-width: 1220px;
+  width: 100%;
+  padding: 40px;
+  align-items: center;
+  height: 70vh;
+  align-content: center;
+}
+
+.slide-content{
+  padding: 10px;
+  overflow: hidden;
+  border-radius: 10px;
+ }
+
+.card-body{
+  margin: 0 !important ;
+  padding-top: 0 !important;
+}
+ .slide-wrapper{
+  height: 100%;
+ }
+ .image-content{
+  background-size: cover;
+ }
+ 
+img.card-img-top.img-content {
+  border-radius: 10px;
+  margin: 10px ;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+}
+.swiper-navBtn{
+  color: #adadad;
+  transition: color 0.3s ease;
+}
+.swiper-navBtn:hover{
+  color: #ffbd23;
+}
+.swiper-navBtn::before
+.swiper-navBtn::after{
+  font-size: 30px;
+}
+
+.swiper-button-next{
+ right: 0;
+}
+.swiper-button-prev{
+  left: 0;
+}
+
+/*end-slider-card */
+
+/* Para Btn */
+a.btn.btn-primary.btn-utama {
+  font-size: 1.1rem;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+  padding: initial;
+  font-weight: 500;
+}
